@@ -3,6 +3,7 @@ body: ''
 content_type: resource
 draft: false
 file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/autodiff.ipynb
+file_size: 14350
 file_type: application/octet-stream
 image_metadata:
   caption: ''
