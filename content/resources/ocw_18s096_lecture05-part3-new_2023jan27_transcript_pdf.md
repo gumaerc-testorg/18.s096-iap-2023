@@ -2,19 +2,18 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/2x2jacobians.jl
-file_size: 40452
-file_type: application/octet-stream
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part3-new_2023jan27_transcript.pdf
+file_size: 114678
+file_type: application/pdf
 image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
-learning_resource_types:
-- Lecture Notes
+learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
-resourcetype: Other
-title: 2x2Jacobians.jl
-uid: d6549c38-24d1-4cad-85ba-b7be4bf7f9e1
+resourcetype: Document
+title: MIT 18.S096 IAP23 Lecture 5 Part3 transcript
+uid: f6352fea-119f-4447-809e-e79ec6bb1056
 video_files:
   archive_url: ''
   video_captions_file: ''

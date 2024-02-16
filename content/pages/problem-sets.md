@@ -5,7 +5,7 @@ draft: false
 title: Problem Sets
 uid: a7e73205-5887-4af2-b241-f0726443b1b0
 ---
-Problem set 1 due on Lecture 4 and Problem set 2 due on Lecture  7.
+Problem set 1 is due on Lecture 4; problem set 2 is due on Lecture 7.
 
 {{% resource_link "cbb92b8e-bb9d-4543-8f22-877b7ea83952" "Problem Set 1 (PDF)" %}} ({{% resource_link "c706382e-ab8b-4966-8590-1f14121695ef" "TEX" %}})
 
@@ -15,4 +15,4 @@ Problem set 1 due on Lecture 4 and Problem set 2 due on Lecture  7.
 
 {{% resource_link "7f5fae70-8417-403a-8f31-cb860e390ee3" "Problem Set 2 Solutions (PDF)" %}} ({{% resource_link "adc0dbf2-261c-4819-9746-a98d13f116b6" "TEX" %}})
 
-[Problem Set 2 Solutions (Jupyter Notebook)](https://nbviewer.org/urls/draft.ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2sol_i.ipynb)
+[Problem Set 2 Solutions (Jupyter notebook)](https://nbviewer.org/urls/draft.ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2sol_i.ipynb)

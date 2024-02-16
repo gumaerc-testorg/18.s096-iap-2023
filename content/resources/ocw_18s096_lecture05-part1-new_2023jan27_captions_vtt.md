@@ -2,19 +2,18 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/2x2jacobians.jl
-file_size: 40452
-file_type: application/octet-stream
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part1-new_2023jan27_captions.vtt
+file_size: 46632
+file_type: text/vtt
 image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
-learning_resource_types:
-- Lecture Notes
+learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
-resourcetype: Other
-title: 2x2Jacobians.jl
-uid: d6549c38-24d1-4cad-85ba-b7be4bf7f9e1
+resourcetype: Document
+title: OCW_18.S096_Lecture05-Part1-New_2023jan27_captions.vtt
+uid: d4e3a296-cce8-4336-8d7f-b4e2b6ab113a
 video_files:
   archive_url: ''
   video_captions_file: ''

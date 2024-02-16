@@ -6,8 +6,13 @@ file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-i
 file_size: 75049
 file_type: image/jpeg
 image_metadata:
-  caption: So, you think you know how to take derivatives? (Image courtesy of Prof.
-    Steven G. Johnson.)
+  caption: "You may think you mastered derivatives after learning a few simple rules,\
+    \ but you could be bewildered if you are\_faced with more complicated functions\
+    \ like a matrix determinant (what is a derivative \u201Cwith respect to a matrix\u201D\
+    ?), the solution of a differential equation, or other huge practical calculations.\
+    \ \_We address such topics by\_re-emphasizing what a derivative really is \u2014\
+    \ linearization \u2014\_and refocusing differential calculus on the linear algebra\
+    \ at its heart. (Image courtesy of Prof. Steven G. Johnson.)"
   credit: ''
   image-alt: The text "So, you think you know how to take derivatives?" surround by
     derivatives.
