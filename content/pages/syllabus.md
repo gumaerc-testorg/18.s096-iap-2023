@@ -20,6 +20,10 @@ We all know that calculus courses such as [*18.01 Single Variable Calculus*](htt
 
 This class covers a coherent approach to matrix calculus showing techniques that allow you to think of a matrix holistically (not just as an array of scalars), generalize and compute derivatives of important matrix factorizations and many other complicated-looking operations, and understand how differentiation formulas must be reimagined in large-scale computing. We will discuss reverse/adjoint/backpropagation differentiation, custom vector-Jacobian products, and how modern automatic differentiation is more computer science than calculus (it is neither symbolic formulas nor finite differences).
 
+## Lecture Notes
+
+There is no required textbook for this course, but a {{% resource_link "b67b8d11-1918-467a-bb76-1cfdb8289174" "complete set of lecture notes" %}} is provided. The lecture notes were prepared by Paige Bright under the guidance of Professors Edelman and Johnson. The notes are also available on [arXiv.org](https://arxiv.org/abs/2501.14787), along with any updates and citing information.
+
 ## Topics
 
 Here are some of the topics covered:

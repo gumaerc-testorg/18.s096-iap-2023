@@ -5,7 +5,8 @@ draft: false
 title: Lecture Notes and Readings
 uid: dc60f1da-e984-4045-b07c-af4129d934e0
 ---
-Selected lecture notes are available.
+Lecture notes were prepared by Paige Bright under the guidance of Professors Edelman and Johnson. {{% resource_link "b67b8d11-1918-467a-bb76-1cfdb8289174" "Full Course Notes (PDF)" %}}   
+The notes are also available on [arXiv.org](https://arxiv.org/abs/2501.14787), along with any updates and citing information.
 
 ## Lecture 1
 
@@ -15,10 +16,12 @@ Selected lecture notes are available.
 
 **Part 2:** Rethinking derivatives as linear operators: f(x + dx) - f(x) = df = f′(x)\[dx\] — f′ is the [linear operator](https://en.wikipedia.org/wiki/Linear_map) that gives the change df in the output from a "tiny" change dx in the inputs, to first order in dx (i.e. dropping higher-order terms). When we have a scalar function f(x) ∈ ℝ of vector inputs x ∈ ℝⁿ, then this gives us a "row vector" f′(x) since f′(x)dx is a scalar, which we interpret as the transpose of the gradient ∇f (which we call a "column" vector), i.e. df = (∇f) ⋅ dx = (∇f)ᵀdx. When we have a vector function f(x) ∈ ℝᵐ of vector inputs x ∈ ℝⁿ, then f'(x) is a linear operator that takes n inputs to m outputs, which we can think of as an m × n matrix called the [Jacobian matrix](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant) (typically covered only superficially in [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/).)
 
-### Lecture Notes
+### Lecture Notes and Slides
 
-- Part 1: {{% resource_link "db5aaa4c-5321-46b2-8ef2-55b2a072adeb" "Introduction (PDF)" %}}
-- Part 2: Derivatives as Linear Operators 
+- *Course notes: Chapter 1, and Chapter 2, Sections 2.1–2.3*
+- Chapter 1: {{% resource_link "532b0906-f056-4c35-8800-db8207fd5011" "Lecture 1, Part 1 Notes: Overview and Motivation (PDF)" %}}  
+- Part 1 Slides: {{% resource_link "db5aaa4c-5321-46b2-8ef2-55b2a072adeb" "Introduction (PDF)" %}}
+- Chapter 2: {{% resource_link "d80e29bd-e7c8-4feb-836e-6afa2914ccde" "Lecture 1, Part 2 Notes: Derivatives as Linear Operators (PDF)" %}} 
 
 ### Further Readings
 
@@ -35,17 +38,20 @@ Selected lecture notes are available.
 
 **Part 2:** Began going into more detail on matrix-valued functions, and their relationship to the "Jacobian matrix" picture. Converting f′(A) to a conventional "Jacobian matrix" in such cases requires converting matrices A into column vectors vec(A), a process called "vectorization" of the matrix (by a common convention: simply stacking the matrix by columns). Linear operators like f′(A)\[dA\] = AdA + dAA can then be expressed as "ordinary" matrices via [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product).
 
-### Lecture Notes
+### Lecture Notes and Other Resources
 
+- *Course notes: Chapter 2, Sections 2.4–2.6, and Chapter 3*
 - Part 0: [Examples of Linear and Nonlinear Transformations of ℝ² via Images (try it online)](https://github.com/mitmath/JuliaComputation/blob/Fall23/notebooks/1_hyperbolic_corgi.jl)
 - Part 1: Derivatives as Linear Operators (continued) 
-- Part 2 (Matrix Jacobians via [Vectorization](https://en.wikipedia.org/wiki/Vectorization_(mathematics))): [Two by Two Matrix Jacobians (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/3f6758996e40c5c1070279f89f7f65e76e08003d/notes/2x2Jacobians.jl.html) {{% resource_link "d6549c38-24d1-4cad-85ba-b7be4bf7f9e1" "(Pluto notebook source code)" %}}
+    - Chapter 2: {{% resource_link "d80e29bd-e7c8-4feb-836e-6afa2914ccde" "Lecture 1, Part 2 Notes: Derivatives as Linear Operators (PDF)" %}} 
+- Chapter 3: {{% resource_link "98865698-8f4e-4766-9e15-a2d0d1d8f14d" "Lecture 2, Part 2 Notes: Jacobians of Matrix Functions (PDF)" %}} 
+- Part 2 (Matrix Jacobians via [Vectorization](https://en.wikipedia.org/wiki/Vectorization_%28mathematics%29)): [Two by Two Matrix Jacobians (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/3f6758996e40c5c1070279f89f7f65e76e08003d/notes/2x2Jacobians.jl.html) {{% resource_link "d6549c38-24d1-4cad-85ba-b7be4bf7f9e1" "(Pluto notebook source code)" %}}
 
 ### Further Readings
 
 - The terms "forward-mode" and "reverse-mode" differentiation are most prevalent in [automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation) (AD), which we will cover later in this course. 
 - You can find many, many articles online about [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) in neural networks. 
-- There are many other versions of this, e.g. in differential geometry the derivative linear operator (multiplying Jacobians and perturbations dx right-to-left) is called a [pushforward](https://en.wikipedia.org/wiki/Pushforward_(differential)), whereas multiplying a gradient row vector (covector) by a Jacobian left-to-right is called a [pullback](https://en.wikipedia.org/wiki/Pullback_(differential_geometry)). 
+- There are many other versions of this, e.g. in differential geometry the derivative linear operator (multiplying Jacobians and perturbations dx right-to-left) is called a [pushforward](https://en.wikipedia.org/wiki/Pushforward_%28differential%29), whereas multiplying a gradient row vector (covector) by a Jacobian left-to-right is called a [pullback](https://en.wikipedia.org/wiki/Pullback_%28differential_geometry%29). 
 - The video on [Understanding Automatic Differentiation (in Julia) (YouTube)](https://www.youtube.com/watch?v=UqymrMG-Qi4) by [Dr. Mohamed Tarek](https://github.com/mohamed82008) also starts with a similar left-to-right (reverse) vs right-to-left (forward) viewpoint and goes into how it translates to Julia code, and how you define custom chain-rule steps for Julia AD.
 
 ## Lecture 3
@@ -56,16 +62,20 @@ Selected lecture notes are available.
 
 **Part 2:** Finite-difference methods: viewing f(x + δx) – f(x) as an approximation for f'(x)δx on a computer. This is extremely useful as a quick check of a hand-derived derivative (which is very error-prone for complicated functions), and can also be used as a replacement for analytical derivatives in a pinch. Analyzed two sources of error: truncation error (from the non-infinitesimal δx) and roundoff error (from the finite precision of computer arithmetic).
 
-### Lecture Notes
+### Lecture Notes and Other Resources
 
-- Part 1 (Lecture 2 Part 2 continued): [Two by Two Matrix Jacobians (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/3f6758996e40c5c1070279f89f7f65e76e08003d/notes/2x2Jacobians.jl.html) {{% resource_link "d6549c38-24d1-4cad-85ba-b7be4bf7f9e1" "(Pluto notebook source code)" %}}
+- *Course notes: Chapter 3 and Chapter 4* 
+- Part 1 (Lecture 2 Part 2 continued)
+    - Chapter 3: {{% resource_link "98865698-8f4e-4766-9e15-a2d0d1d8f14d" "Lecture 2, Part 2 Notes: Jacobians of Matrix Functions (PDF)" %}} 
+-  [Two by Two Matrix Jacobians (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/3f6758996e40c5c1070279f89f7f65e76e08003d/notes/2x2Jacobians.jl.html) {{% resource_link "d6549c38-24d1-4cad-85ba-b7be4bf7f9e1" "(Pluto notebook source code)" %}}
+- Chapter 4: {{% resource_link "6ba1e5b8-0fb9-454e-9a1c-372bfcbaae9a" "Lecture 3, Part 2 Notes: Finite-Difference Approximations (PDF)" %}} 
 - Part 2: [Finite Difference (Jupyter notebook)](https://nbviewer.org/urls/draft.ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/fd_checks.ipynb)
 
 ### Further Readings
 
-- Wikipedia has a useful list of [properties of the matrix trace](https://en.wikipedia.org/wiki/Trace_(linear_algebra)#Properties). 
+- Wikipedia has a useful list of [properties of the matrix trace](https://en.wikipedia.org/wiki/Trace_%28linear_algebra%29#Properties). 
 - The "matrix dot product" introduced today is also called the [Frobenius inner product](https://en.wikipedia.org/wiki/Frobenius_inner_product), and the corresponding norm ("length" of the matrix viewed as a vector) is the [Frobenius norm](https://mathworld.wolfram.com/FrobeniusNorm.html). 
-- When you "flatten" a matrix A by stacking its columns into a single vector, the result is called [vec(A)](https://en.wikipedia.org/wiki/Vectorization_(mathematics)), and many important linear operations on matrices can be expressed as [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product). 
+- When you "flatten" a matrix A by stacking its columns into a single vector, the result is called [vec(A)](https://en.wikipedia.org/wiki/Vectorization_%28mathematics%29), and many important linear operations on matrices can be expressed as [Kronecker products](https://en.wikipedia.org/wiki/Kronecker_product). 
 - [*The Matrix Cookbook* (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) has lots of formulas for derivatives of matrix functions. 
 - There is a lot of information online on [finite difference](https://en.wikipedia.org/wiki/Finite_difference), [18.303 Notes on Finite Differences (PDF)](https://github.com/mitmath/18303/blob/fall16/difference-approx.pdf), or [Section 5.7 of Numerical Derivatives (PDF)](http://www.it.uom.gr/teaching/linearalgebra/NumericalRecipiesInC/c5-7.pdf). 
 - The Julia [FiniteDifferences.jl](https://github.com/JuliaDiff/FiniteDifferences.jl) package provides lots of algorithms to compute finite-difference approximations; a particularly robust and powerful way to obtain high accuracy is to employ [Richardson extrapolation](https://github.com/JuliaDiff/FiniteDifferences.jl#richardson-extrapolation) to smaller and smaller δx. If you make δx too small, the finite precision (#digits) of [floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic) leads to [catastrophic cancellation](https://en.wikipedia.org/wiki/Catastrophic_cancellation) errors.
@@ -86,10 +96,12 @@ Defined the most obvious inner product of m × n matrices: the [Frobenius inner 
 
 **Part 2:** Applications of derivatives to multivariate root-finding and optimization. A key fact enabling large-scale optimization, i.e. min f(x) where f is a scalar function of *many* parameters x, is that computing ∇f has about the same cost as f, using what is variously called "reverse-mode" or "adjoint" or "backpropagation" differentiation algorithms, which essentially boil down to evaluating the chain rule **left to right**. Went through a few examples of this, oriented more at engineering/physics optimization (and "topology optimization").
 
-### Lecture Notes
+### Lecture Notes and Slides
 
-- Part 1: Generalized Gradients and Inner Products 
-- Part 2: {{% resource_link "f46d4277-f227-44f7-a6dd-7176e7d45df4" "Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)" %}}
+- *Course notes: Section 5.1, and Chapter 6*
+- Chapter 5: {{% resource_link "7af616b9-bb47-4b92-88fb-f01a4faed704" "Lecture 4, Part 1 Notes: Derivatives in General Vector Spaces (PDF)" %}} 
+- Chapter 6: {{% resource_link "6d55b3ea-f560-4129-9386-11f2f0f329e6" "Lecture 4, Part 2 Notes: Nonlinear Root-Finding, Optimization, and Adjoint Differentiation (PDF)" %}} 
+- Part 2 Slides: {{% resource_link "f46d4277-f227-44f7-a6dd-7176e7d45df4" "Nonlinear Root-Finding, Optimization, and Adjoint-Method Differentiation (PDF)" %}}
 
 ### Further Readings (Part 2)
 
@@ -100,12 +112,14 @@ Defined the most obvious inner product of m × n matrices: the [Frobenius inner 
 
 ## Lecture 5
 
-### Lecture Notes
+### Lecture Notes and Other Resources
 
+- *Course notes: Section 5.2, Chapter 7, and Sections 8.1–8.2*
 - Part 0: Norms and Derivatives: Why a Norm of the Input and Output Are Needed to Define a Derivative
+- Chapter 7:{{% resource_link "0bf49c20-75d0-4e15-a605-390ec1f204e1" "Lecture 5, Part 1 Notes: Derivative of Matrix Determinant and Inverse (PDF)" %}}  
 - Part 1: [Derivative of Matrix Determinant and Inverse (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/b08435612045b17745707f03900e4e4187a6f489/notes/determinant_and_inverse.html) {{% resource_link "58261f48-bbeb-4a98-b042-4ce2be056a03" "(Julia source code)" %}}
 - Part 2: [Forward-Mode Automatic Differentiation via Dual Numbers (Jupyter notebook)](https://nbviewer.org/urls/draft.ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/autodiff.ipynb)
-- Part 3: Forward and Reverse-Mode Automatic Differentiation on Computational Graphs 
+- Chapter 8: {{% resource_link "dd866538-0b2b-491b-85f9-005b8cbc7673" "Lecture 5, Part 3 Notes: Forward and Reverse-Mode Automatic Differentiation (PDF)" %}} 
 
 ### Further Readings (Part 1)
 
@@ -125,10 +139,12 @@ Defined the most obvious inner product of m × n matrices: the [Frobenius inner 
 
 ## Lecture 6
 
-### Lecture Notes
+### Lecture Notes and Slides
 
-- Part 1: {{% resource_link "1a34cc63-b920-4b86-80da-3c0f7566b9d5" "An Introduction to (Local) Sensitivity Analysis for (Ordinary) Differential Equations (PDF)" %}} (Courtesy of Frank Schäfer. Used with permission.)
-- Part 2: Calculus of Variations 
+- *Course notes: Chapter 9 and Chapter 10*
+- Chapter 9: {{% resource_link "1fb6c24e-c6b5-41f7-9405-56f9ff7bb689" "Lecture 6, Part 1a Notes: Differentiating ODE Solutions (PDF)" %}} 
+- Part 1 Slides: {{% resource_link "1a34cc63-b920-4b86-80da-3c0f7566b9d5" "An Introduction to (Local) Sensitivity Analysis for (Ordinary) Differential Equations (PDF)" %}} (Courtesy of Frank Schäfer. Used with permission.)
+- Chapter 10: {{% resource_link "4eca7e53-5fc8-49db-b808-e09685ee385e" "Lecture 6, Part 1b Notes: Calculus of Variations (PDF)" %}} 
 
 ### Further Readings (Part 1)
 
@@ -146,8 +162,10 @@ Defined the most obvious inner product of m × n matrices: the [Frobenius inner 
 
 ### Lecture Notes
 
-- Part 1: {{% resource_link "c66c314f-efc2-4a08-9982-e966fb2400c6" "Derivatives of Random Functions (PDF)" %}} (Courtesy of Gaurav Arya. Used with permission.)
-- Part 2: Second Derivatives, Bilinear Forms, and Hessian Matrices 
+- *Course notes: Chapter 11 and Chapter 12*
+- Chapter 11: {{% resource_link "ffdcd720-dc4b-467a-861a-a6ff79ab6ff4" "Lecture 7, Part 1 Notes: Derivative of Random Functions (PDF)" %}} 
+- Lecture 7, Part 1 Guest Lecture Notes: {{% resource_link "c66c314f-efc2-4a08-9982-e966fb2400c6" "Derivatives of Random Functions (PDF)" %}} (Courtesy of Gaurav Arya. Used with permission.)
+- Chapter 12: {{% resource_link "7724967d-1b72-4498-b202-440d7437d3eb" "Lecture 7, Part 2 Notes: Second Derivatives, Bilinear Forms, and Hessian Matrices (PDF)" %}} 
 
 ### Further Readings (Part 1)
 
@@ -165,15 +183,17 @@ Defined the most obvious inner product of m × n matrices: the [Frobenius inner 
 
 ## Lecture 8
 
-### Lecture Notes
+### Lecture Notes and Other Resources
 
+- *Course notes: Chapter 13, and Chapter 8, Sections 8.3-8.4, and Chapter 14*
+- Chapter 13: {{% resource_link "c135bd06-d239-432f-9f85-c1a607636ad3" "Lecture 8, Part 1 Notes: Derivatives of Eigenproblems (PDF)" %}} 
 - Part 1: [Derivatives of Eigenproblems (HTML)](https://rawcdn.githack.com/mitmath/matrixcalc/d11b747d70a5d9e1a3da8cdb68a7f8a220d3afae/notes/symeig.jl.html) {{% resource_link "4753711e-3fce-40a0-9a52-4a7fdf51a06f" "(Julia source code)" %}}
 - Part 2: Forward and Reverse-Mode Automatic Differentiation on Computational Graphs (continued from Lecture 5) and [interactive notebook (HTML)](https://simeonschaub.github.io/ReverseModePluto/notebook.html)
-- Part 3: some topics we didn't cover
+- Chapter 14: {{% resource_link "e46f9d46-cd58-4cca-91d5-2ec64ff054c9" "Lecture 8, Part 3 Notes: Where We Go From Here (PDF)" %}} 
 
 ### Further Readings (Part 1)
 
-- Computing derivatives on curved surfaces ("manifolds") is closely related to [tangent spaces](https://en.wikipedia.org/wiki/Tangent_space) in differential geometry. The effect of constraints can also be expressed in terms of [Lagrange multipliers](https://en.wikipedia.org/wiki/Lagrange_multiplier), which are useful in expressing optimization problems with constraints (see also chapter 5 of [*Convex Optimization*](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe). In physics, first and second derivatives of eigenvalues and first derivatives of eigenvectors are often presented as part of ["time-independent" perturbation theory](https://en.wikipedia.org/wiki/Perturbation_theory_(quantum_mechanics)#Time-independent_perturbation_theory) in quantum mechanics, or as the [Hellmann–Feynmann theorem](https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem) for the case of dλ. The derivative of an eigenvector involves *all* of the other eigenvectors, but a much simpler "vector–Jacobian product" (involving only a single eigenvector and eigenvalue) can be obtained from left-to-right differentiation of a *scalar function* of an eigenvector, as reviewed in the [Notes on Adjoint Methods for 18.335 (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf).
+- Computing derivatives on curved surfaces ("manifolds") is closely related to [tangent spaces](https://en.wikipedia.org/wiki/Tangent_space) in differential geometry. The effect of constraints can also be expressed in terms of [Lagrange multipliers](https://en.wikipedia.org/wiki/Lagrange_multiplier), which are useful in expressing optimization problems with constraints (see also chapter 5 of [*Convex Optimization*](https://web.stanford.edu/~boyd/cvxbook/) by Boyd and Vandenberghe). In physics, first and second derivatives of eigenvalues and first derivatives of eigenvectors are often presented as part of ["time-independent" perturbation theory](https://en.wikipedia.org/wiki/Perturbation_theory_%28quantum_mechanics%29#Time-independent_perturbation_theory) in quantum mechanics, or as the [Hellmann–Feynmann theorem](https://en.wikipedia.org/wiki/Hellmann%E2%80%93Feynman_theorem) for the case of dλ. The derivative of an eigenvector involves *all* of the other eigenvectors, but a much simpler "vector–Jacobian product" (involving only a single eigenvector and eigenvalue) can be obtained from left-to-right differentiation of a *scalar function* of an eigenvector, as reviewed in the [Notes on Adjoint Methods for 18.335 (PDF)](https://github.com/mitmath/18335/blob/spring21/notes/adjoint/adjoint.pdf).
 
 ### Further Readings (Part 2)
 
