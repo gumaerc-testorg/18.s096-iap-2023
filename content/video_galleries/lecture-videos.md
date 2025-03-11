@@ -1,6 +1,7 @@
 ---
 content_type: video_gallery
 draft: false
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/lecture-videos
 title: Lecture Videos
 uid: a5d954ee-e1c0-4ff2-a4da-7c2db12f9e49
 videos:
