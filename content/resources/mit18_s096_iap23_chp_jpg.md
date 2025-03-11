@@ -2,11 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
-- courses
-- matrix-calculus-for-machine-learning-and-beyond-iap-2023
-- mit18_s096_iap23_chp.jpg
+file: /courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096_iap23_chp.jpg
 file_size: 75049
 file_type: image/jpeg
 image_metadata:
