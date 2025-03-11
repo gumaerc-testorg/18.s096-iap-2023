@@ -1,6 +1,7 @@
 ---
 content_type: video_gallery
 draft: false
+file: /
 title: Lecture Videos
 uid: a5d954ee-e1c0-4ff2-a4da-7c2db12f9e49
 videos:
