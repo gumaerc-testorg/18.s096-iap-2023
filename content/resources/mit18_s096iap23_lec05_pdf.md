@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_lec05_pdf
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096iap23_lec05.pdf
 file_size: 573479
 file_type: application/pdf
 image_metadata:
