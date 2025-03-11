@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /ol-ocw-studio-app/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2.pdf
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2_pdf
 file_size: 256840
 file_type: application/pdf
 image_metadata:
