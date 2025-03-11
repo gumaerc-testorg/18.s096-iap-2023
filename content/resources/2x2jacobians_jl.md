@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/2x2jacobians_jl
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/2x2jacobians.jl
 file_size: 40452
 file_type: application/octet-stream
 image_metadata:
