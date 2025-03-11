@@ -2,11 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
-- courses
-- matrix-calculus-for-machine-learning-and-beyond-iap-2023
-- fd_checks.ipynb
+file: /courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/fd_checks.ipynb
 file_size: 105282
 file_type: application/octet-stream
 image_metadata:
