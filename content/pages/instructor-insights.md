@@ -2,8 +2,7 @@
 content_type: page
 description: This page presents information on how the course 18.S096 was taught.
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
+file: /
 title: Instructor Insights
 uid: c2b5e29a-28a5-4999-b4db-92e9fa59b798
 ---

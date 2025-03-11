@@ -2,11 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
-- courses
-- matrix-calculus-for-machine-learning-and-beyond-iap-2023
-- ocw_18s096_lecture07-part2_2023feb01_360p_16_9.mp4
+file: /courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/ocw_18s096_lecture07-part2_2023feb01_360p_16_9.mp4
 file_size: 50872737
 file_type: video/mp4
 image_metadata:
