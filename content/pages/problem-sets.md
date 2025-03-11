@@ -2,6 +2,7 @@
 content_type: page
 description: This page includes problem sets and solutions.
 draft: false
+file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/problem-sets
 title: Problem Sets
 uid: a7e73205-5887-4af2-b241-f0726443b1b0
 ---
