@@ -2,7 +2,8 @@
 content_type: page
 description: This page presents information on how the course 18.S096 was taught.
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023
+file: !!python/object/apply:pathlib.PosixPath
+- /
 title: Instructor Insights
 uid: c2b5e29a-28a5-4999-b4db-92e9fa59b798
 ---
