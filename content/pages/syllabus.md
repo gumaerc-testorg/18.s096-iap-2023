@@ -3,6 +3,7 @@ content_type: page
 description: This page includes course meeting times, prerequisites, course description,
   and topics.
 draft: false
+file: /
 title: Syllabus
 uid: c649638c-8d02-4221-ba19-ebc202192803
 ---
