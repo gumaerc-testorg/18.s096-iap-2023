@@ -2,11 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
-- courses
-- matrix-calculus-for-machine-learning-and-beyond-iap-2023
-- mit18_s096iap23_lec_full.pdf
+file: /courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096iap23_lec_full.pdf
 file_size: 1691607
 file_type: application/pdf
 image_metadata:

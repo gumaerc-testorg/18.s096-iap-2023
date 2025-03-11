@@ -2,11 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: !!python/object/apply:pathlib.PosixPath
-- /
-- courses
-- matrix-calculus-for-machine-learning-and-beyond-iap-2023
-- ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf
+file: /courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf
 file_size: 140176
 file_type: application/pdf
 image_metadata:
