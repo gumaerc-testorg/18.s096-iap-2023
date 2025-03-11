@@ -3,7 +3,8 @@ content_type: page
 description: This page includes course meeting times, prerequisites, course description,
   and topics.
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023
+file: !!python/object/apply:pathlib.PosixPath
+- /
 title: Syllabus
 uid: c649638c-8d02-4221-ba19-ebc202192803
 ---
