@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset2.pdf
+file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096iap23_pset2.pdf
 file_size: 256840
 file_type: application/pdf
 image_metadata:
@@ -13,8 +13,7 @@ learning_resource_types:
 - Problem Sets
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Document
-title: '18.S096 (IAP 2023) Matrix Calculus for Machine Learning and Beyond: Problem
-  Set 2'
+title: Problem Set 2
 uid: 0218323b-1209-4c71-81b1-3da3dd967d5d
 video_files:
   archive_url: ''

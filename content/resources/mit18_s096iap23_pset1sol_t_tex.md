@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset1sol_t.tex
+file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096iap23_pset1sol_t.tex
 file_size: 14402
 file_type: text/x-tex
 image_metadata:
@@ -10,7 +10,7 @@ image_metadata:
   credit: ''
   image-alt: ''
 learning_resource_types:
-- Problem Sets
+- Problem Sets with Solutions
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Document
 title: mit18_s096iap23_pset1sol_t.tex
