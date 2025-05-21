@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/determinant_and_inverse.jl
+file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/determinant_and_inverse.jl
 file_size: 37631
 file_type: application/octet-stream
 image_metadata:
@@ -10,7 +10,7 @@ image_metadata:
   credit: ''
   image-alt: ''
 learning_resource_types:
-- Lecture Notes
+- Tools
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Other
 title: determinant_and_inverse.jl
@@ -26,3 +26,4 @@ video_metadata:
   youtube_description: ''
   youtube_id: ''
 ---
+Julia source code.

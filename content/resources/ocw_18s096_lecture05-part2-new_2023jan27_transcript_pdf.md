@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf
+file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_transcript.pdf
 file_size: 140176
 file_type: application/pdf
 image_metadata:
@@ -12,7 +12,7 @@ image_metadata:
 learning_resource_types: []
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Document
-title: MIT 18.S096 IAP23 Lecture 5 Part2 transcript
+title: Lecture 5 Part 2 transcript
 uid: 94e41184-7953-4828-a991-9a1a789b5016
 video_files:
   archive_url: ''
