@@ -2,14 +2,15 @@
 body: ''
 content_type: resource
 draft: false
-file: /courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_360p_16_9.mp4
+file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/ocw_18s096_lecture05-part2-new_2023jan27_360p_16_9.mp4
 file_size: 64662139
 file_type: video/mp4
 image_metadata:
   caption: ''
   credit: ''
   image-alt: ''
-learning_resource_types: []
+learning_resource_types:
+- Lecture Videos
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Video
 title: 'Lecture 5 Part 2: Forward Automatic Differentiation via Dual Numbers'
