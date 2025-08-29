@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/ocw_18s096_lecture03-part2_2023jan23_360p_16_9.mp4
+file: /ol-ocw-studio-app/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/ocw_18s096_lecture03-part2_2023jan23_360p_16_9.mp4
 file_size: 101946708
 file_type: video/mp4
 image_metadata:
