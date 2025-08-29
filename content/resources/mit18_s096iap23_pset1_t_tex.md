@@ -2,7 +2,7 @@
 body: ''
 content_type: resource
 draft: false
-file: courses/matrix-calculus-for-machine-learning-and-beyond-iap-2023/mit18_s096iap23_pset1_t.tex
+file: /ol-ocw-studio-app/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/mit18_s096iap23_pset1_t.tex
 file_size: 4475
 file_type: text/x-tex
 image_metadata:
@@ -10,7 +10,7 @@ image_metadata:
   credit: ''
   image-alt: ''
 learning_resource_types:
-- Problem Sets
+- Editable Files
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 resourcetype: Document
 title: mit18_s096iap23_pset1_t.tex
@@ -21,6 +21,7 @@ video_files:
   video_thumbnail_file: ''
   video_transcript_file: ''
 video_metadata:
+  source: ''
   video_speakers: ''
   video_tags: ''
   youtube_description: ''
