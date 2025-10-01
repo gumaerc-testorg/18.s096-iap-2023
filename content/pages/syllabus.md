@@ -12,17 +12,17 @@ Lectures: 3 sessions / week, 2 hours / session
 
 ## Prerequisites
 
-Courses in linear algebra (such as [*18.06 Linear Algebra*](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/)) and multivariate calculus (such as [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/))
+Courses in linear algebra (such as {{% resource_link "d628efb8-bcba-4219-b28b-466d5e34b4cc" "*18.06 Linear Algebra*" %}}) and multivariate calculus (such as {{% resource_link "03cb8060-ce30-41b4-a501-1d8957951bc5" "*18.02 Multivariable Calculus*" %}})
 
 ## Course Description
 
-We all know that calculus courses such as [*18.01 Single Variable Calculus*](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/) and [*18.02 Multivariable Calculus*](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) cover univariate and vector calculus, respectively. Modern applications such as machine learning and large-scale optimization require the next big step, "matrix calculus" and calculus on arbitrary vector spaces.
+We all know that calculus courses such as {{% resource_link "ccb954a1-d1b5-4cdd-9161-759872047def" "*18.01 Single Variable Calculus*" %}} and {{% resource_link "03cb8060-ce30-41b4-a501-1d8957951bc5" "*18.02 Multivariable Calculus*" %}} cover univariate and vector calculus, respectively. Modern applications such as machine learning and large-scale optimization require the next big step, "matrix calculus" and calculus on arbitrary vector spaces.
 
 This class covers a coherent approach to matrix calculus showing techniques that allow you to think of a matrix holistically (not just as an array of scalars), generalize and compute derivatives of important matrix factorizations and many other complicated-looking operations, and understand how differentiation formulas must be reimagined in large-scale computing. We will discuss reverse/adjoint/backpropagation differentiation, custom vector-Jacobian products, and how modern automatic differentiation is more computer science than calculus (it is neither symbolic formulas nor finite differences).
 
 ## Lecture Notes
 
-There is no required textbook for this course, but a {{% resource_link "b67b8d11-1918-467a-bb76-1cfdb8289174" "complete set of lecture notes" %}} is provided. The lecture notes were prepared by Paige Bright under the guidance of Professors Edelman and Johnson. The notes are also available on [arXiv.org](https://arxiv.org/abs/2501.14787), along with any updates and citing information.
+There is no required textbook for this course, but a {{% resource_link "b67b8d11-1918-467a-bb76-1cfdb8289174" "complete set of lecture notes" %}} is provided. The lecture notes were prepared by Paige Bright under the guidance of Professors Edelman and Johnson. The notes are also available on {{% resource_link "d1dad955-1ef3-4cd9-92e5-043bb9d7d234" "arXiv.org" %}}, along with any updates and citing information.
 
 ## Topics
 
